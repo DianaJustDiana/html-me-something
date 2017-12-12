@@ -1,11 +1,15 @@
 
 main {
-    margin: auto;
+    background: rgba(255,255,255, 0.92);  
+    margin: 5% 5%;   
+    padding-bottom: 50px; 
 }
+
 body {
-    background-image: url('images/gerbera-daisies-background.jpg');
-    
+    margin: auto;
+    background-image: url('images/gerbera-daisies-background.jpg');   
 }
+
 img {  
     padding:1px;
     border:1px solid #021a40;
@@ -14,84 +18,54 @@ img {
     margin: auto;
 }
 
-.spoiler-box {
-    position: relative;
-   
+h1 {
+    font-size: 115pt;
+    font-family: 'Dancing Script', cursive;   
+    text-align: center; 
+    margin-top: -20px;
 }
 
-.cutline {
-    position: absolute;
-    bottom: -20px;
+h3 {
+    font-size: 26pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -60px;  
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 18pt;    
+}
+
+article {
+    margin: auto;
+    width: 75%;
+}
+
+footer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-align: left;
+}
+
+header {
+    padding-top: 180px;    
+}
+
+figcaption { 
+    display: block;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-div {
-    padding-bottom: 40px;
-}
-#art-type {
-    font-size: 120pt;
-    font-family: 'Dancing Script', cursive;   
-    text-align: center; 
-    background-color: pink;
-}
-#nutgraf {
-    font-size: 60pt;
-    font-family: 'EB Garamond', serif;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 80px;
-}
-h1 {
-    font-size: 44pt;
-    font-family: Arial, Helvetica, sans-serif;
-     
-}
-h3 {
-    font-size: 24pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p {
-    font-family: 'EB Garamond', serif;
-    font-size: 18pt;    
-}
-article {
+.vertical-pics {
+    width: 50%;
+    height: auto;
+    display: block;
     margin: auto;
-    width: 60%;
-}
-footer {
-    padding-left: 80px;   
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold; 
 }
 
-
-
-Here are some specific requirements you should fulfill:
-
-Use margin and padding to space your elements in a visually pleasing way.
-Use at least one of each of the following types of selectors: element, class, id.
-Don't break these rules:
-At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
-Use document-level and inline styles sparingly, and only when absolutely necessary.
-As before, be creative! Make your page look great, and don't settle for checking off the items above. Have a look at CSS Zen Garden for inspiration (use your browser's developer tools to see how those pages' styles are built).
-
-
-In order to see any visible change, make sure to link the stylesheet to your main document.
-Feel free to check out our styled example to see how we did things. Use "View Source" (by right-clicking anywhere on the page and selecting View Source).
-Another thing you might find useful is your browser's developer tools.
-And be sure to use the Resources section below as you go.
-
-
-Resources
-General CSS:
-w3schools CSS Reference
-CSS Zen Garden
-(Advanced) Specifics on CSS Specificity
-(Advanced) Specificity (MDN)
-CSS Normalization:
-Eric Meyer's reset.css
-normalize.css
+#spoiler-box {
+    display: none;
+}

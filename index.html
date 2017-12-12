@@ -5,76 +5,88 @@
     <link rel="stylesheet" type="text/css" href="styles.css" >
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond" rel="stylesheet">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
     <body>
-    <main>
-        <header>
-            <h1 id=art-type>Yes, that happened</h1>
-            <p id=nutgraf> It would be easy to fill a blog with my cringy moments. The hardest part is picking which story to start with. Here's one from November 2017.</p>            
-        </header>
+    <main>  
         <article>
             <header>
                 <h1>Why I wear red plastic glasses</h1>
-                <h3>Also, how to not meet a hunky firefighter at Costco</h3>
+                <h3>Also, how to get ignored by hunky firefighters at Costco</h3>
+                <footer>By Diana</footer>    
             </header>
             
             <p>One of the joys of growing older is your body finds new ways to surprise you. For me, that's meant a transition from straight to curly hair, and from 20/20 vision to this:</p>
-            <img src="images/eye-chart-looks-blurry.jpg" alt: "blurry eye chart">    
-
-            <p>So last year I picked up a pair of cheap but decent-looking reading glasses. I'm not happy that I now need them, but at least this pair wasn't terrible.</p> 
-            <img src="images/bronze-framed-readers.jpg" alt:"bronze color framed reading glasses">
-           
-            <p>I had my trusty glasses with me on a recent trip to Costco. At any other store it would have been a quick trip, as I needed just one item, but Costco is where time stands still.</p>
-            <img src="images/costco-checkout-lines.jpg" alt:"long lines to check out at Costco">
+            <figure class="vertical-pics">
+                <img src="images/eye-chart-looks-blurry.jpg" alt: "blurry eye chart"> 
+                <figcaption>Welcome to my world.</figcaption>   
+            </figure>
             
-            <p>Yeah. That checkout. I got in line and readied my credit and Costco cards.
-            While I was waiting, I peered over the top of my glasses and noticed, standing by the food court ...</p>
+            <p>So last year I picked up a pair of cheap but decent-looking reading glasses. I'm not happy that I now need them, but at least this pair wasn't terrible.</p> 
+            <figure>
+                <img src="images/bronze-framed-readers.jpg" alt:"bronze color framed reading glasses">
+            </figure>
+            
+            <p>I had my trusty glasses with me on a recent trip to Costco. At any other store it would have been a quick trip, as I needed just one item, but Costco is where time stands still.</p>
+            <figure>
+                <img src="images/costco-checkout-lines.jpg" alt:"long lines to check out at Costco">
+                <figcaption>Yeah. That checkout.</figcaption>
+            </figure>
+                
+            <p>I got in line and readied my credit and Costco cards. While I was waiting, I peered over the top of my glasses and noticed, standing by the food court ...</p>
             
             <p>Hunky firefighters! Three of them! Three hunky firefighters! (Click the button if you can handle the sight of THREE! HUNKY! FIREFIGHTERS!)</p>
             
+
+            <button onclick="w3.toggleShow('#spoiler-box')">Show me the beefcake</button>
             
+            <figure id=spoiler-box>
+                <img src="images/lego-firefighters.jpg" alt="three Lego firefighters all male">
+                <figcaption>Photo of hunky firefighters was Sanitized for Your Protection&#174.</figcaption>
+            </figure>
             
-        
-            <div class="spoiler-box">
-                <img src="images/lego-firefighters.jpg" alt="three Lego firefighters all male" style="width:100%;">
-                <div class="cutline">Photo of hunky firefighters was Sanitized for Your Protection&#174.</div>
-            </div>
-            
-        
-            <p>At that very moment it was my turn in the checkout. Since I already had my glasses on, I was able to quickly punch in my payment information. Done!
-            I started toward the exit, clutching my purse, my purchase, my keys, and my receipt. 
-            But wait! I realized that I was about to stroll right past those firefighters. Then I remembered the famous Dorothy Parker quote:</p>
-            <img src="images/dorothy-parker-quote.jpg" alt:"Dorothy Parker quote rendered in cross stitch: Men seldom make passes at girls who wear glasses.">
+            <p>At that very moment it was my turn in the checkout. Since I already had my glasses on, I was able to quickly punch in my payment information. Done! I started toward the exit, clutching my purse, my purchase, my keys, and my receipt. But wait! I realized that I was about to stroll right past those firefighters. Then I remembered the famous Dorothy Parker quote:</p>
+            <figure class="vertical-pics">
+                <img src="images/dorothy-parker-quote.jpg" alt:"Dorothy Parker quote rendered in cross stitch: Men seldom make passes at girls who wear glasses.">
+            </figure>
             
             <p>I quickly pushed my glasses up so they were perched atop my head.</p>
-            <img src="images/old-woman-glasses-on-head.jpg" alt:"senior citizen with glasses on top of head">
+            <figure class="vertical-pics">
+                <img src="images/older-woman-with-readers-on-head.jpg" alt:"senior citizen with reading glasses on top of head">
+                <figcaption>No shade toward the woman in this stock photo. She looks great, but she also has a couple of decades on me.</figcaption>
+            </figure>
             
-            <p>Nope, bad idea. Wearing reading glasses up there ages me by decades. So I took them off completely. I walked past the food court holding my purse, my purchase, my keys, my receipt, and also my glasses.</p>
+            <p>Nope, bad idea. Wearing reading glasses up there makes me look like a retiree. So I took them off completely. I walked past the food court holding my purse, my purchase, my keys, my receipt, and also my glasses.</p>
 
             <p>I thought surely one of those firefighters would notice me and think, "Hey, that woman with the giant box of vegetarian stuffed grape leaves and the blurry vision -- I must go talk to her!"</p>
         
             <p>Um, no. I walked all the way to the store exit, where an employee checked my receipt against my purchase, and then I walked outside to my car. 
             That's where I realized that not only had I not lured in a firefighter, I'd also managed to lose my glasses!</p>
-            <img src="images/homer-simpson-doh.gif" alt:"Homer Simpson exclaims doh">
+            <figure class="vertical-pics"> 
+                <img src="images/homer-simpson-doh.gif" alt:"Homer Simpson exclaims doh">
+            </figure>
             
             <p>It was time to retrace my steps. 
             I reversed my route and raced through the parking lot, back into the store (through the exit), and along the path to the checkout, searching blindly for my stupid @#$%ing glasses.
             Those firefighters were still there, engrossed in their cheap hot dog lunch, but I didn't care. (If they weren't interested in the confident, glasses-free me, 
             they definitely weren't going to be interested in the panicked, searching-the-floor-for-glasses me.)</p>
-            <img src="images/velma-lost-her-glasses.jpg" alt:"Velma from Scooby-Doo reaches around the floor for her dropped glasses">    
-
+            <figure>
+                <img src="images/velma-lost-her-glasses.jpg" alt:"Velma from Scooby-Doo reaches around the floor for her dropped glasses">    
+                <figcaption>Remember Velma from Scooby-Doo? I didn't feel her pain when I was a kid, but now I do.</figcaption>
+            </figure>
+            
             <p>I did not find my glasses.</p>
 
             <p>After Costco I stopped at the nearby Goodwill store, where I tried on every pair of decent-looking $3.69 reading glasses in stock, but those were all too strong for my eyes. 
             I settled on a pair that didn't appeal to me but made things less blurry:</p>
-            <img src="images/red-reading-glasses.jpg" alt:"red plastic reading glasses that sort of look like mine">
+            <figure>
+                <img src="images/red-reading-glasses.jpg" alt:"red plastic reading glasses that sort of look like mine">
+            </figure>
             
             <p>These days you'll see me wearing my red plastic replacement glasses, and when they're not on my face they're usually safely atop my head.</p>
 
         </article>
     </main>
-<footer>
-    Posted by Diana Davis
-</footer>
+
 </body>    
 </html>
 
