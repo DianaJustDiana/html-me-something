@@ -3,7 +3,8 @@ main {
     margin: auto;
 }
 body {
-    background-color: floralwhite;
+    background-image: url('images/gerbera-daisies-background.jpg');
+    
 }
 img {  
     padding:1px;
@@ -15,9 +16,9 @@ img {
 
 .spoiler-box {
     position: relative;
-    text-align: center;
-    color: white;
+   
 }
+
 .cutline {
     position: absolute;
     bottom: -20px;
@@ -27,23 +28,24 @@ img {
 }
 
 div {
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 #art-type {
     font-size: 120pt;
     font-family: 'Dancing Script', cursive;   
     text-align: center; 
+    background-color: pink;
 }
 #nutgraf {
     font-size: 60pt;
     font-family: 'EB Garamond', serif;
     padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     padding-left: 80px;
 }
 h1 {
-    font-size: 36pt;
+    font-size: 44pt;
     font-family: Arial, Helvetica, sans-serif;
      
 }
