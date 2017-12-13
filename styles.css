@@ -70,3 +70,8 @@ figcaption {
 #spoiler-box {
     display: none;
 }
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}

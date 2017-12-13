@@ -1,6 +1,13 @@
-//function showThePic() {
-  //  show('.spoiler-box') ;
-//}
+in html
+element.addEventListener('event_name_here', eventHandlerFunctionHere)
+
+
+
+
+function showThePic() {
+    show('spoiler-box') ;
+}
+
 
 
 // const is a keyword used to signify a variable that wont change (that // name cant be reassigned to another value), it is shorthand for "constant"
@@ -22,3 +29,17 @@ function on() {
 function off() {
     document.getElementById("spoiler-box").style.display = "none";
 }
+
+
+
+
+w
+
+
+  <script src="myjsfile.js"></script>
+
+  function popupAnAlert() {
+      alert("hello")
+  }
+
+  <button onclick="popupAnAlert()">Click to see alert</button>
