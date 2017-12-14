@@ -10,7 +10,6 @@ body {
     background-image: url('images/gerbera-daisies-background.jpg');   
 }
 
-
 img {  
     padding:1px;
     border:1px solid #021a40;
@@ -74,4 +73,16 @@ figcaption {
 figure {
     margin: 0px;
     padding: 0px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin: none;
+    width: 100%;
+    padding-top: 203px;
+    padding-bottom: 203px;
 }
